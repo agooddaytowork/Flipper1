@@ -12,6 +12,7 @@ greaterThan(QT_MAJOR_VERSION, 4): CONFIG += c++11
 TARGET = FlipperDemo
 TEMPLATE = app
 
+DEFINES+= QCUSTOMPLOT_USE_OPENGL
 
 SOURCES += main.cpp\
         mainwindow.cpp \
