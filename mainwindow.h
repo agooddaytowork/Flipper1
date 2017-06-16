@@ -78,6 +78,8 @@ private slots:
     void SLOT_getPublicIP(QNetworkReply *reply);
     void on_buttonResetDatabase_clicked();
 
+    void on_pushButton_2_clicked();
+
 private:
     Ui::MainWindow *ui;
     flipperinterface Flipper;

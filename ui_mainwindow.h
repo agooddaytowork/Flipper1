@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'mainwindow.ui'
 **
-** Created by: Qt User Interface Compiler version 5.3.2
+** Created by: Qt User Interface Compiler version 5.8.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -71,6 +71,7 @@ public:
     QLabel *labelPublicIP;
     QLabel *label_6;
     QLineEdit *lineEditDecimalpoint;
+    QPushButton *pushButton_2;
     QWidget *CH1;
     QHBoxLayout *horizontalLayout_4;
     QCustomPlot *GraphCH1;
@@ -314,6 +315,11 @@ public:
 
         gridLayout_2->addWidget(lineEditDecimalpoint, 11, 3, 1, 1);
 
+        pushButton_2 = new QPushButton(ConfigTab);
+        pushButton_2->setObjectName(QStringLiteral("pushButton_2"));
+
+        gridLayout_2->addWidget(pushButton_2, 17, 3, 1, 1);
+
         gridLayout_2->setColumnStretch(0, 1);
         gridLayout_2->setColumnStretch(1, 1);
         gridLayout_2->setColumnStretch(2, 1);
@@ -355,37 +361,38 @@ public:
 
     void retranslateUi(QMainWindow *MainWindow)
     {
-        MainWindow->setWindowTitle(QApplication::translate("MainWindow", "MainWindow", 0));
-        label_19->setText(QApplication::translate("MainWindow", "CH3 Spec (Celcius):", 0));
-        checkBoxCH3->setText(QApplication::translate("MainWindow", "CH3", 0));
-        lineEditCH3Spec->setText(QApplication::translate("MainWindow", "-50", 0));
-        checkBoxAlarmEmail->setText(QApplication::translate("MainWindow", "Alert Email", 0));
-        checkBoxCH2->setText(QApplication::translate("MainWindow", "CH2", 0));
-        label_3->setText(QApplication::translate("MainWindow", "Flipper addr:", 0));
-        pushButtonStart->setText(QApplication::translate("MainWindow", "Start", 0));
-        label->setText(QApplication::translate("MainWindow", "Flipper IP:", 0));
-        label_17->setText(QApplication::translate("MainWindow", "CH1 Spec (Celcius):", 0));
-        checkBoxStatusMobile->setText(QApplication::translate("MainWindow", "Status Mobile", 0));
-        label_18->setText(QApplication::translate("MainWindow", "CH2 Spec (Celcius):", 0));
-        label_4->setText(QApplication::translate("MainWindow", "Warehouse Name:", 0));
-        checkBoxStatusEmail->setText(QApplication::translate("MainWindow", "Status Email", 0));
-        checkBoxCH1->setText(QApplication::translate("MainWindow", "CH1", 0));
-        lineEditFlipperPort->setText(QApplication::translate("MainWindow", "502", 0));
-        lineEditCH2Spec->setText(QApplication::translate("MainWindow", "-50", 0));
-        label_2->setText(QApplication::translate("MainWindow", "Port:", 0));
-        lineEditFlipperAddr->setText(QApplication::translate("MainWindow", "1", 0));
-        checkBoxAlarmMobile->setText(QApplication::translate("MainWindow", "Alert Mobile", 0));
-        lineEditCH1Spec->setText(QApplication::translate("MainWindow", "-50", 0));
-        labelLocalIP->setText(QApplication::translate("MainWindow", "Local IP:", 0));
-        label_5->setText(QApplication::translate("MainWindow", "Raspberry Pi addresses:", 0));
-        pushButton->setText(QApplication::translate("MainWindow", "Test", 0));
-        buttonResetDatabase->setText(QApplication::translate("MainWindow", "Reset Database", 0));
-        labelPublicIP->setText(QApplication::translate("MainWindow", "Public IP:", 0));
-        label_6->setText(QApplication::translate("MainWindow", "Decimalpoint (10/100/1000): ", 0));
-        tabWidget->setTabText(tabWidget->indexOf(ConfigTab), QApplication::translate("MainWindow", "Configuration", 0));
-        tabWidget->setTabText(tabWidget->indexOf(CH1), QApplication::translate("MainWindow", "CH1", 0));
-        tabWidget->setTabText(tabWidget->indexOf(CH2), QApplication::translate("MainWindow", "CH2", 0));
-        tabWidget->setTabText(tabWidget->indexOf(CH3), QApplication::translate("MainWindow", "CH3", 0));
+        MainWindow->setWindowTitle(QApplication::translate("MainWindow", "MainWindow", Q_NULLPTR));
+        label_19->setText(QApplication::translate("MainWindow", "CH3 Spec (Celcius):", Q_NULLPTR));
+        checkBoxCH3->setText(QApplication::translate("MainWindow", "CH3", Q_NULLPTR));
+        lineEditCH3Spec->setText(QApplication::translate("MainWindow", "-50", Q_NULLPTR));
+        checkBoxAlarmEmail->setText(QApplication::translate("MainWindow", "Alert Email", Q_NULLPTR));
+        checkBoxCH2->setText(QApplication::translate("MainWindow", "CH2", Q_NULLPTR));
+        label_3->setText(QApplication::translate("MainWindow", "Flipper addr:", Q_NULLPTR));
+        pushButtonStart->setText(QApplication::translate("MainWindow", "Start", Q_NULLPTR));
+        label->setText(QApplication::translate("MainWindow", "Flipper IP:", Q_NULLPTR));
+        label_17->setText(QApplication::translate("MainWindow", "CH1 Spec (Celcius):", Q_NULLPTR));
+        checkBoxStatusMobile->setText(QApplication::translate("MainWindow", "Status Mobile", Q_NULLPTR));
+        label_18->setText(QApplication::translate("MainWindow", "CH2 Spec (Celcius):", Q_NULLPTR));
+        label_4->setText(QApplication::translate("MainWindow", "Warehouse Name:", Q_NULLPTR));
+        checkBoxStatusEmail->setText(QApplication::translate("MainWindow", "Status Email", Q_NULLPTR));
+        checkBoxCH1->setText(QApplication::translate("MainWindow", "CH1", Q_NULLPTR));
+        lineEditFlipperPort->setText(QApplication::translate("MainWindow", "502", Q_NULLPTR));
+        lineEditCH2Spec->setText(QApplication::translate("MainWindow", "-50", Q_NULLPTR));
+        label_2->setText(QApplication::translate("MainWindow", "Port:", Q_NULLPTR));
+        lineEditFlipperAddr->setText(QApplication::translate("MainWindow", "1", Q_NULLPTR));
+        checkBoxAlarmMobile->setText(QApplication::translate("MainWindow", "Alert Mobile", Q_NULLPTR));
+        lineEditCH1Spec->setText(QApplication::translate("MainWindow", "-50", Q_NULLPTR));
+        labelLocalIP->setText(QApplication::translate("MainWindow", "Local IP:", Q_NULLPTR));
+        label_5->setText(QApplication::translate("MainWindow", "Raspberry Pi addresses:", Q_NULLPTR));
+        pushButton->setText(QApplication::translate("MainWindow", "Test", Q_NULLPTR));
+        buttonResetDatabase->setText(QApplication::translate("MainWindow", "Reset Database", Q_NULLPTR));
+        labelPublicIP->setText(QApplication::translate("MainWindow", "Public IP:", Q_NULLPTR));
+        label_6->setText(QApplication::translate("MainWindow", "Decimalpoint (10/100/1000): ", Q_NULLPTR));
+        pushButton_2->setText(QApplication::translate("MainWindow", "Quit", Q_NULLPTR));
+        tabWidget->setTabText(tabWidget->indexOf(ConfigTab), QApplication::translate("MainWindow", "Configuration", Q_NULLPTR));
+        tabWidget->setTabText(tabWidget->indexOf(CH1), QApplication::translate("MainWindow", "CH1", Q_NULLPTR));
+        tabWidget->setTabText(tabWidget->indexOf(CH2), QApplication::translate("MainWindow", "CH2", Q_NULLPTR));
+        tabWidget->setTabText(tabWidget->indexOf(CH3), QApplication::translate("MainWindow", "CH3", Q_NULLPTR));
     } // retranslateUi
 
 };
