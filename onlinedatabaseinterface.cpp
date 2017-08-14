@@ -11,7 +11,7 @@ void MainWindow::sendNewDataToOnlineDatabase(const int &CH, const double &value)
 
     QByteArray data = QJsonDocument(SendData).toJson();
 
-    QUrl url("http://tamduongs.com:82/iot/flipperdataupdate.php");
+    QUrl url("http://essdepots.com:82/iot/flipperdataupdate.php");
     QNetworkRequest request(url);
 
     request.setHeader(QNetworkRequest::ContentTypeHeader, "application/json");
